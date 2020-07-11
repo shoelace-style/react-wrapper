@@ -13,7 +13,7 @@ export default tagName => {
       this.syncProps(this.props);
     }
 
-    componentWillReceiveProps(props) {
+    componentDidUpdate(props) {
       this.syncProps(props);
     }
 
