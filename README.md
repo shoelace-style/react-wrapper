@@ -12,6 +12,17 @@ const ShoelaceButton = wrapCustomElement('sl-button');
 return <ShoelaceButton type="primary">Click me</ShoelaceButton>;
 ```
 
+A reference (“ref”) to the underlying custom element is exposed through the `element` property so you can access it directly. This is useful for calling methods.
+
+```jsx
+<ShoelaceButton 
+  ref={el => this.button = el} 
+  onClick={() => this.button.element.current.removeFocus()}
+>
+  Click me
+</ShoelaceButton>
+```
+
 This utility was built for [Shoelace](https://shoelace.style), but it should work for just about any custom element.
 
 ## Why is this necessary?
