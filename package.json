@@ -1,6 +1,6 @@
 {
   "name": "@shoelace-style/react-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight utility that wraps custom elements (\"web components\") so they can be used like native React components.",
   "main": "dist/index.js",
   "files": [
