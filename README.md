@@ -5,7 +5,7 @@ A lightweight utility that wraps custom elements ("web components") so they can 
 ## Usage
 
 ```jsx
-import wrapCustomElement from '@shoelace/react-wrapper';
+import wrapCustomElement from '@shoelace-style/react-wrapper';
 
 const ShoelaceButton = wrapCustomElement('sl-button');
 
