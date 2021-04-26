@@ -2,6 +2,10 @@
 
 A lightweight utility that wraps custom elements ("web components") so they can be used like native React components.
 
+**This package has been deprecated!** You should use [`@lit-labs/react`](https://www.npmjs.com/package/@lit-labs/react) instead. If you're looking for an official Shoelace + React package, head on over to [`@shoelace-style/react`](https://www.npmjs.com/package/@shoelace-style/react).
+
+---
+
 ## Usage
 
 ```jsx
